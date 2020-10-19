@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		564AC131252F677900B76EE4 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564AC130252F677900B76EE4 /* ImagePicker.swift */; };
+		564AC13E252F843A00B76EE4 /* PhotoCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564AC13D252F843A00B76EE4 /* PhotoCaptureView.swift */; };
 		5675636D252BE52F0060E9D5 /* iMeowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5675636C252BE52F0060E9D5 /* iMeowApp.swift */; };
 		5675636F252BE52F0060E9D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5675636E252BE52F0060E9D5 /* ContentView.swift */; };
 		56756371252BE5300060E9D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56756370252BE5300060E9D5 /* Assets.xcassets */; };
 		56756374252BE5300060E9D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56756373252BE5300060E9D5 /* Preview Assets.xcassets */; };
 		5675637F252BE5300060E9D5 /* iMeowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5675637E252BE5300060E9D5 /* iMeowTests.swift */; };
 		5675638A252BE5300060E9D5 /* iMeowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56756389252BE5300060E9D5 /* iMeowUITests.swift */; };
+		567563A3252BE5910060E9D5 /* FirstLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567563A2252BE5910060E9D5 /* FirstLaunch.swift */; };
+		567563A8252BE65E0060E9D5 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567563A7252BE65E0060E9D5 /* Cat.swift */; };
+		56D28A7C252D4A200052FC79 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D28A7B252D4A200052FC79 /* ViewRouter.swift */; };
+		56D28A81252D4B140052FC79 /* MotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D28A80252D4B140052FC79 /* MotherView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		564AC130252F677900B76EE4 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		564AC13D252F843A00B76EE4 /* PhotoCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureView.swift; sourceTree = "<group>"; };
 		56756369252BE52F0060E9D5 /* iMeow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMeow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5675636C252BE52F0060E9D5 /* iMeowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMeowApp.swift; sourceTree = "<group>"; };
 		5675636E252BE52F0060E9D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +53,10 @@
 		56756385252BE5300060E9D5 /* iMeowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMeowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56756389252BE5300060E9D5 /* iMeowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMeowUITests.swift; sourceTree = "<group>"; };
 		5675638B252BE5300060E9D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		567563A2252BE5910060E9D5 /* FirstLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLaunch.swift; sourceTree = "<group>"; };
+		567563A7252BE65E0060E9D5 /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		56D28A7B252D4A200052FC79 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		56D28A80252D4B140052FC79 /* MotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotherView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +112,12 @@
 				56756370252BE5300060E9D5 /* Assets.xcassets */,
 				56756375252BE5300060E9D5 /* Info.plist */,
 				56756372252BE5300060E9D5 /* Preview Content */,
+				567563A2252BE5910060E9D5 /* FirstLaunch.swift */,
+				56D28A7B252D4A200052FC79 /* ViewRouter.swift */,
+				567563A7252BE65E0060E9D5 /* Cat.swift */,
+				56D28A80252D4B140052FC79 /* MotherView.swift */,
+				564AC130252F677900B76EE4 /* ImagePicker.swift */,
+				564AC13D252F843A00B76EE4 /* PhotoCaptureView.swift */,
 			);
 			path = iMeow;
 			sourceTree = "<group>";
@@ -259,6 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56D28A7C252D4A200052FC79 /* ViewRouter.swift in Sources */,
+				56D28A81252D4B140052FC79 /* MotherView.swift in Sources */,
+				564AC13E252F843A00B76EE4 /* PhotoCaptureView.swift in Sources */,
+				567563A8252BE65E0060E9D5 /* Cat.swift in Sources */,
+				564AC131252F677900B76EE4 /* ImagePicker.swift in Sources */,
+				567563A3252BE5910060E9D5 /* FirstLaunch.swift in Sources */,
 				5675636F252BE52F0060E9D5 /* ContentView.swift in Sources */,
 				5675636D252BE52F0060E9D5 /* iMeowApp.swift in Sources */,
 			);
@@ -419,6 +443,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"iMeow/Preview Content\"";
+				DEVELOPMENT_TEAM = JM7R3HZC67;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iMeow/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -440,6 +465,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"iMeow/Preview Content\"";
+				DEVELOPMENT_TEAM = JM7R3HZC67;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iMeow/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
