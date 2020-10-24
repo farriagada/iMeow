@@ -8,6 +8,8 @@
 import Foundation
 import SwiftUI
 
+
+
 class ImagePickerCoordinator : NSObject, UINavigationControllerDelegate, UIImagePickerControllerDelegate{
     
     @Binding var isShown    : Bool
@@ -27,11 +29,12 @@ class ImagePickerCoordinator : NSObject, UINavigationControllerDelegate, UIImage
     //Selected Image
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         let uiImage = info[UIImagePickerController.InfoKey.originalImage] as! UIImage
+       
         image = Image(uiImage: uiImage)
         let dirURL = getDocumentsDirectory()
         let catphotoURL = URL(fileURLWithPath: "catphoto", relativeTo: dirURL).appendingPathExtension("png")
-        if let data = uiImage.pngData(),
-           !FileManager.default.fileExists(atPath: catphotoURL.path) {
+        if let data = uiImage.jpegData(compressionQuality: 1)
+        {
             do {
                 try data.write(to: catphotoURL)
             } catch {

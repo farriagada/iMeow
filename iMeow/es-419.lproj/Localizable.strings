@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  iMeow
+
+  Created by Francisco Arriagada on 22-10-20.
+  
+*/
+
+" is " = " tiene ";
+" months old" = " meses";
+" month old" = " mes";
+" years old" = " años";
+"(And if it were male, " = "(Y si fuera humano, ";
+"(And if it were female, " = "(Y si fuera humana, ";
+" would be " = " tendría ";
+"would be " = "tendría ";
+" years old)" = " años)";
+"he" = "él";
+" is a " = " tiene ";
+" year old" = " año";
+"(And if " = "(Y si ";
+" were human, " = " fuera humano, ";
+"PROFILE PICTURE" = "FOTO DE PERFIL";
+"Cat's info" = "Información del gato";
+"Gender" = "Sexo";
+"Done!" = "Listo!";
+"Birthday" = "Cumpleaños";
+"Edit" = "Editar";
+"Male" = "Macho";
+"Female" = "Hembra";
+"NAME" = "NOMBRE";

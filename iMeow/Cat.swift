@@ -27,7 +27,6 @@ class Cat: ObservableObject {
         }
     }
     
-    public var genders = ["Male", "Female"]
     
     init(){
         self.catname = UserDefaults.standard.object(forKey: "catname") as? String ?? ""

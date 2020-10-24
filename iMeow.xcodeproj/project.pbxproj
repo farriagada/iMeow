@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56240845254226FE0041DF05 /* Todolist in Resources */ = {isa = PBXBuildFile; fileRef = 56240844254226FE0041DF05 /* Todolist */; };
+		5624085E25425D7F0041DF05 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5624086025425D7F0041DF05 /* Localizable.strings */; };
 		564AC131252F677900B76EE4 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564AC130252F677900B76EE4 /* ImagePicker.swift */; };
 		564AC13E252F843A00B76EE4 /* PhotoCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564AC13D252F843A00B76EE4 /* PhotoCaptureView.swift */; };
 		5675636D252BE52F0060E9D5 /* iMeowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5675636C252BE52F0060E9D5 /* iMeowApp.swift */; };
@@ -39,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		56240844254226FE0041DF05 /* Todolist */ = {isa = PBXFileReference; lastKnownFileType = text; path = Todolist; sourceTree = "<group>"; };
+		5624084925425BD20041DF05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Info.plist; sourceTree = "<group>"; };
+		5624085F25425D7F0041DF05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5624086425425EB20041DF05 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "es-419"; path = "es-419.lproj/Info.plist"; sourceTree = "<group>"; };
+		5624086825425EB20041DF05 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		564AC130252F677900B76EE4 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		564AC13D252F843A00B76EE4 /* PhotoCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureView.swift; sourceTree = "<group>"; };
 		56756369252BE52F0060E9D5 /* iMeow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMeow.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,7 +53,6 @@
 		5675636E252BE52F0060E9D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		56756370252BE5300060E9D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56756373252BE5300060E9D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		56756375252BE5300060E9D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5675637A252BE5300060E9D5 /* iMeowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMeowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5675637E252BE5300060E9D5 /* iMeowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMeowTests.swift; sourceTree = "<group>"; };
 		56756380252BE5300060E9D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -109,8 +115,10 @@
 			children = (
 				5675636C252BE52F0060E9D5 /* iMeowApp.swift */,
 				5675636E252BE52F0060E9D5 /* ContentView.swift */,
+				56240844254226FE0041DF05 /* Todolist */,
 				56756370252BE5300060E9D5 /* Assets.xcassets */,
-				56756375252BE5300060E9D5 /* Info.plist */,
+				5624084A25425BD20041DF05 /* Info.plist */,
+				5624086025425D7F0041DF05 /* Localizable.strings */,
 				56756372252BE5300060E9D5 /* Preview Content */,
 				567563A2252BE5910060E9D5 /* FirstLaunch.swift */,
 				56D28A7B252D4A200052FC79 /* ViewRouter.swift */,
@@ -233,6 +241,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"es-419",
 			);
 			mainGroup = 56756360252BE52F0060E9D5;
 			productRefGroup = 5675636A252BE52F0060E9D5 /* Products */;
@@ -252,6 +261,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				56756374252BE5300060E9D5 /* Preview Assets.xcassets in Resources */,
+				5624085E25425D7F0041DF05 /* Localizable.strings in Resources */,
+				56240845254226FE0041DF05 /* Todolist in Resources */,
 				56756371252BE5300060E9D5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,11 +330,33 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		5624084A25425BD20041DF05 /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5624084925425BD20041DF05 /* en */,
+				5624086425425EB20041DF05 /* es-419 */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
+		5624086025425D7F0041DF05 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5624085F25425D7F0041DF05 /* en */,
+				5624086825425EB20041DF05 /* es-419 */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		5675638C252BE5300060E9D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -371,6 +404,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -385,6 +419,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -426,6 +461,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
